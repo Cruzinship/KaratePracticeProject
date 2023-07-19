@@ -8,7 +8,6 @@ Feature: simple Karate scripts
   * print name,"is",age,"years old"
   #The comma is a concatenation in this case
 
-  @wip
   Scenario: JSON objects, first class citizens of Karate framework
     * def student = {'name': 'Oscar', 'owe_tuition': false}
     #You can define json objects as variables

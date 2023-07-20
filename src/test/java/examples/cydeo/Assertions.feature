@@ -28,7 +28,6 @@ Feature: Testing Assertions commands in Karate
     * match oneSpartan.poop == '#notpresent'
     * match oneSpartan.id == '#present'
 
-    @Wip
   Scenario: match each, king of looping inside JSON Array objects
     * match each fourSpartans[*].id == '#number'
     * match each fourSpartans[*].name == '#string'

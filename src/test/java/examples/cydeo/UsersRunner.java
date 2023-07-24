@@ -6,7 +6,7 @@ class UsersRunner {
     
     @Karate.Test
     Karate testUsers() {
-        return Karate.run("bookStoreAPI.feature").tags("@wip").relativeTo(getClass());
+        return Karate.run("SpartansTest.feature").tags("@wip").relativeTo(getClass());
     }    
 
 }
